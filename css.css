@@ -1,0 +1,150 @@
+body
+{
+	background: #121212;
+	background: url(img/bg.png);
+	text-align: center;
+	color: white;
+	margin: 0;
+}
+
+header
+{
+	position: fixed;
+	background: #2980b9;
+	width: 100%;
+	height: 30px;
+	margin: 0px auto;
+	padding: 10px;
+	top: 0;
+	box-shadow: 0 3px 5px rgba(0,0,0,1);
+	text-align: center;
+}
+
+header a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#header
+{
+	width: 1000px;
+	margin: 0px auto;
+	font-size: 25px;
+	text-align: center;
+}
+
+#container
+{
+	max-width: 950px;
+	background: #242424;
+	margin: 60px auto 0;
+	padding: 20px;
+	min-height: 700px;
+	box-shadow: 0 0 10px rgb(0,0,0);
+}
+
+.toq
+{
+	background: #2980b9;
+	color: white;
+	border: 0px;
+	border-bottom: 5px solid #2c3e50;
+	border-radius: 5px;
+	font-size: 150%;
+	margin: 20px 0;
+	padding: 10px;
+	cursor:pointer;
+	height: 120px;
+	width: 70%;
+}
+
+.toq:hover
+{
+	background: #e67e22;
+	border-bottom: 5px solid #d35400;
+	font-size: 160%;
+}
+
+table
+{
+	border: 2px solid #121212;
+	padding: 0;
+}
+
+tr
+{
+	height: 40px;
+	padding: 10px;
+}
+
+td
+{
+	background: #363636;
+}
+
+.table1
+{
+	width: 100%;
+	margin: 20px 0px;
+}
+
+.table1 th
+{
+	background: #c0392b;
+}
+
+.num td
+{
+	width: 16%;
+	background: #363636;
+}
+
+.table1 input
+{
+	background: #363636;
+	color: white;
+	width: 85%;
+	border: 0;
+	padding: 5px;
+	text-align: center;
+}
+
+.tab td
+{
+	width: 20%;
+}
+
+.solve
+{
+	background: #2980b9;
+	color: white;
+	border: 0px;
+	border-bottom: 5px solid #2c3e50;
+	border-radius: 5px;
+	font-size: 150%;
+	margin: 50px 0;
+	padding: 10px;
+	cursor:pointer;
+	height: 90px;
+	width: 70%;
+}
+
+.solve:hover
+{
+	background: #e67e22;
+	border-bottom: 5px solid #d35400;
+	font-size: 160%;
+}
+
+.table2
+{
+	width: 100%;
+	margin: 10px 0px;
+}
+
+.table2 th
+{
+	background: #c0392b;
+	width: 49%;
+}
